@@ -1,17 +1,14 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, render_template
+from dashboard import create_dashboard
 
 app = Flask(__name__)
 
-@app.route("/", methods=['GET'])
-def get_homepage():
-    # logger.info("homepage successful")
-    return render_template("webpage_garage.html",
-                           filename="static/work_from_home.jpg", organization="static/organization.jpg",
-                           logo="static/logo.jpg", techshuttle="static/Spaceship.jpg"
-                           )
+# Create and link the Dash app with the Flask app
+dash_app = create_dashboard(app)
 
+@app.route('/')
+def home():
+    return render_template('index.html')
 
-
-if __name__ == "__main__":
-    # logging.info('App started and is running successfully')
+if __name__ == '__main__':
     app.run(debug=True)

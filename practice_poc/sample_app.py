@@ -11,6 +11,7 @@ server = Flask(__name__)
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 print(ROOT_DIR)
+
 # Define a route for the Flask app
 @server.route('/')
 def index():

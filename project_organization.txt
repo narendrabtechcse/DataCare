@@ -1,0 +1,23 @@
+
+
+
+
+
+/TwitterSentimentDashboard
+│
+├── app.py                   # Flask app entry point
+├── dashboard.py             # Plotly Dash app code
+├── data
+│   └── sample_data.json     # Sample Twitter JSON data
+├── modules
+│   ├── data_loader.py       # Code to load and clean the data
+│   ├── sentiment_analysis.py # Code for sentiment analysis
+│   ├── entity_extraction.py  # Code for entity extraction
+│   ├── visualization.py      # Code for generating various Plotly visualizations
+│   └── __init__.py           # Makes 'modules' a package
+├── static                   # Static files for the Flask app (CSS, JS, images)
+├── templates
+│   └── home.html            # Homepage template for the Flask app
+├── requirements.txt         # Required Python packages
+├── README.md                # Project overview and instructions
+└── config.py                # Configuration settings (if needed)
