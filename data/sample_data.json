@@ -16,5 +16,77 @@
             "id": 102,
             "name": "Jane Smith"
         }
+    },
+    {
+        "id" : 3,
+        "text" : "Johnny Depp has never been charged nor convicted. Amber Heard was found to have LIED",
+        "created_at": "2023-10-02T15:30:10Z",
+        "user": {
+            "id": 103,
+            "name": "Ratter Gwennaelle"
+        }
+    },
+    {
+        "id" : 4,
+        "text" : "Amber Heard has decided to change lawyers for her appeal against Johnny Depp",
+        "created_at": "2023-10-02T15:32:10Z",
+        "user": {
+            "id": 104,
+            "name": "lards jacob"
+        }
+    },
+     {
+        "id" : 5,
+        "text" : "It's people behind this account as to why millions of men don't come forward after domestic abuse",
+        "created_at": "2023-10-02T15:33:10Z",
+        "user": {
+            "id": 105,
+            "name": "Micaela Perez"
+        }
+    },
+    {
+        "id" : 6,
+        "text" : "You forgot WB who let Johnny Depp go and retained Amber",
+        "created_at": "2023-10-02T15:34:10Z",
+        "user": {
+            "id": 106,
+            "name": "Annette Levy"
+        }
+    },
+    {
+        "id" : 7,
+        "text" : "My goodness, I'm in love! who's side are you on, amber heard or johnny depp?",
+        "created_at": "2023-10-02T15:35:10Z",
+        "user": {
+            "id": 107,
+            "name": "Jennifer Rowe"
+        }
+    },
+     {
+        "id" : 8,
+        "text" : "Amber Heard is a monster!!!",
+        "created_at": "2023-10-02T15:35:10Z",
+        "user": {
+            "id": 108,
+            "name": "Jacinta Nandi"
+        }
+    },
+    {
+        "id" : 9,
+        "text" : "She has far more support than she could ever dream of #Amber",
+        "created_at": "2023-10-02T15:36:10Z",
+        "user": {
+            "id": 109,
+            "name": "Paulo Boca"
+        }
+    },
+    {
+        "id" : 10,
+        "text" : "Johnny is the victim here #AbuseHasNoGender",
+        "created_at": "2023-10-02T15:37:10Z",
+        "user": {
+            "id": 110,
+            "name": "Paul Bareness"
+        }
     }
 ]
